@@ -1,9 +1,12 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import Gear from '@/components/atoms/icons/gear.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <dev class="font-bold">
+      <p class="text-red-600">こんにちは</p>
+      <Gear />
+    </dev>
   </main>
 </template>
